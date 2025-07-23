@@ -160,28 +160,7 @@ const employeeSlice = createSlice({
   name: 'employee',
   initialState: {
     employees: [
-      {
-        empId: "EMP001",
-        fullName: "Ravi Kumar",
-        email: "ravi@example.com",
-        phoneNumber: "9876543210",
-        designation: "Software Engineer",
-        department: "Engineering",
-        joiningDate: "2023-01-15",
-        employeeType: "Full Time",         // Full-time / Part-time / Intern
-        workLocation: "Bangalore",
-        profilePicture: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1025px-Cat03.jpg",
-        status: "Active",                 // Active / Inactive
-        isAdmin: true,
-        managerNameOrId: "EMP101",
-        skills: ["React", "Node", "MongoDB", "Java", "Typescript", "SQL",],
-        dateOfBirth: "1995-06-12",
-        emergencyContact: {
-          fullName: "Suresh Kumar",
-          relationship: "Brother",
-          phoneNumber: "9123456789"
-        }
-      },
+      
       {
         empId: "EMP002",
         fullName: "Rakesh Kumar",
